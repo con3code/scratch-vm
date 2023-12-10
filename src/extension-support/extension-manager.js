@@ -59,6 +59,8 @@ const builtinExtensions = {
  */
 
 builtinExtensions['qrcode'] = () => require('../extensions/scratch3_qrcode');
+builtinExtensions['numberbank'] = () => require('../extensions/scratch3_numberbank');
+builtinExtensions['pasorich'] = () => require('../extensions/scratch3_pasorich');
 
 class ExtensionManager {
     constructor (runtime) {
